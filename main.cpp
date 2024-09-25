@@ -15,16 +15,16 @@ int main() {
     double avg;
 
     while (k < 5) {
-        cout << "Ââåäèòå çíà÷åíèå t" << ++k << ": ";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ t" << ++k << ": ";
         cin >> t;
 
         if (t < tm) {
             avg = t1 * exp(-0.021 * t);
-            cout << "Ñð. çíà÷åíèå t" << k << ": " << avg << "\n" << endl;
+            cout << "Ð¡Ñ€. Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ t" << k << ": " << avg << "\n" << endl;
         }
         else {
             avg = t2 * exp(-0.015 * (t - tm));
-            cout << "Ñð. çíà÷åíèå t" << k << ": " << avg << "\n" << endl;
+            cout << "Ð¡Ñ€. Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ t" << k << ": " << avg << "\n" << endl;
         }
     }
     return 0;
